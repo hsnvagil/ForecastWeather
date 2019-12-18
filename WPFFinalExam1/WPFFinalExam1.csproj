@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA58795A-E69C-45A7-81AE-3BBE6584D28C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WPFFinalExam1</RootNamespace>
+    <AssemblyName>WPFFinalExam1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.4.1.1\lib\net462\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=2.0.0.0, Culture=neutral, PublicKeyToken=51482d6f650b2b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.2.0.0-alpha0605\lib\net47\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.0.30\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Device" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Controls.DataVisualization.Toolkit.4.0.0.0\lib\net40-Client\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converter\CircularConverters.cs" />
+    <Compile Include="Converter\CompassConverter.cs" />
+    <Compile Include="Converter\IconConvert.cs" />
+    <Compile Include="Converter\TimeConverter.cs" />
+    <Compile Include="Model\DayForecast.cs" />
+    <Compile Include="Model\ForecastToday.cs" />
+    <Compile Include="Model\HourForecast.cs" />
+    <Compile Include="Model\StatsWeatherInfo.cs" />
+    <Compile Include="Model\WeatherInfo.cs" />
+    <Compile Include="Services\Command.cs" />
+    <Compile Include="Services\IStatsWeatherApi.cs" />
+    <Compile Include="Services\IWeatherAPI.cs" />
+    <Compile Include="Services\StatsWeatherApi.cs" />
+    <Compile Include="Services\WeatherAPI.cs" />
+    <Compile Include="UserControl\CircularProgressBar.cs" />
+    <Compile Include="ViewModel\ForecastViewModel.cs" />
+    <Compile Include="ViewModel\HistoricalWeatherViewModel.cs" />
+    <Compile Include="ViewModel\MenuWindowViewModel.cs" />
+    <Compile Include="View\ForecastView.xaml.cs">
+      <DependentUpon>ForecastView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HistoricalWeatherView.xaml.cs">
+      <DependentUpon>HistoricalWeatherView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuWindow.xaml.cs">
+      <DependentUpon>MenuWindow.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Templates\BAR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ForecastView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HistoricalWeatherView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MenuWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\WeatherIcon\01d.png" />
+    <Resource Include="Image\WeatherIcon\01n.png" />
+    <Resource Include="Image\WeatherIcon\02d.png" />
+    <Resource Include="Image\WeatherIcon\02n.png" />
+    <Resource Include="Image\WeatherIcon\03d.png" />
+    <Resource Include="Image\WeatherIcon\04d.png" />
+    <Resource Include="Image\WeatherIcon\09d.png" />
+    <Resource Include="Image\WeatherIcon\10d.png" />
+    <Resource Include="Image\WeatherIcon\10n.png" />
+    <Resource Include="Image\WeatherIcon\11d.png" />
+    <Resource Include="Image\WeatherIcon\11n.png" />
+    <Resource Include="Image\WeatherIcon\13d.png" />
+    <Resource Include="Image\WeatherIcon\13n.png" />
+    <Resource Include="Image\WeatherIcon\50d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Background\01d.jpg" />
+    <Resource Include="Image\Background\01n.jpg" />
+    <Resource Include="Image\Background\02d.jpg" />
+    <Resource Include="Image\Background\03d.jpg" />
+    <Resource Include="Image\Background\03n.jpg" />
+    <Resource Include="Image\Background\04d.jpg" />
+    <Resource Include="Image\Background\09n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Drop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\icons8-home-128.png" />
+    <Resource Include="Icon\icons8-home-128_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\icons8-graph-96.png" />
+    <Resource Include="Icon\icons8-graph-96_selected.png" />
+    <Resource Include="Icon\icons8-happy-96.png" />
+    <Resource Include="Icon\icons8-happy-96_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\sunrise.png" />
+    <Resource Include="Image\sunset.png" />
+    <Resource Include="Image\moonrise.png" />
+    <Resource Include="Image\moonset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

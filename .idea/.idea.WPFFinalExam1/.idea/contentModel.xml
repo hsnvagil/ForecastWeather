@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ACER\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ACER\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WPFFinalExam1.-1395266922.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ACER\Desktop\WPFFinalExam1" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WPFFinalExam1" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Converter" t="Include">
+          <e p="CircularConverters.cs" t="Include" />
+          <e p="CompassConverter.cs" t="Include" />
+          <e p="IconConvert.cs" t="Include" />
+          <e p="TimeConverter.cs" t="Include" />
+        </e>
+        <e p="Icon" t="Include">
+          <e p="icons8-graph-96.png" t="Include" />
+          <e p="icons8-graph-96_selected.png" t="Include" />
+          <e p="icons8-happy-96.png" t="Include" />
+          <e p="icons8-happy-96_selected.png" t="Include" />
+          <e p="icons8-home-128.png" t="Include" />
+          <e p="icons8-home-128_selected.png" t="Include" />
+        </e>
+        <e p="Image" t="Include">
+          <e p="Background" t="Include">
+            <e p="01d.jpg" t="Include" />
+            <e p="01n.jpg" t="Include" />
+            <e p="02d.jpg" t="Include" />
+            <e p="03d.jpg" t="Include" />
+            <e p="03n.jpg" t="Include" />
+            <e p="04d.jpg" t="Include" />
+            <e p="09n.jpg" t="Include" />
+          </e>
+          <e p="Drop.png" t="Include" />
+          <e p="icon.ico" t="Include" />
+          <e p="moonrise.png" t="Include" />
+          <e p="moonset.png" t="Include" />
+          <e p="sunrise.png" t="Include" />
+          <e p="sunset.png" t="Include" />
+          <e p="WeatherIcon" t="Include">
+            <e p="01d.png" t="Include" />
+            <e p="01n.png" t="Include" />
+            <e p="02d.png" t="Include" />
+            <e p="02n.png" t="Include" />
+            <e p="03d.png" t="Include" />
+            <e p="04d.png" t="Include" />
+            <e p="09d.png" t="Include" />
+            <e p="10d.png" t="Include" />
+            <e p="10n.png" t="Include" />
+            <e p="11d.png" t="Include" />
+            <e p="11n.png" t="Include" />
+            <e p="13d.png" t="Include" />
+            <e p="13n.png" t="Include" />
+            <e p="50d.png" t="Include" />
+          </e>
+        </e>
+        <e p="Model" t="Include">
+          <e p="DayForecast.cs" t="Include" />
+          <e p="ForecastToday.cs" t="Include" />
+          <e p="HourForecast.cs" t="Include" />
+          <e p="StatsWeatherInfo.cs" t="Include" />
+          <e p="WeatherInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Command.cs" t="Include" />
+          <e p="IStatsWeatherApi.cs" t="Include" />
+          <e p="IWeatherAPI.cs" t="Include" />
+          <e p="StatsWeatherApi.cs" t="Include" />
+          <e p="WeatherAPI.cs" t="Include" />
+        </e>
+        <e p="Templates" t="Include">
+          <e p="BAR.xaml" t="Include" />
+          <e p="Styles.xaml" t="Include" />
+        </e>
+        <e p="UserControl" t="Include">
+          <e p="CircularProgressBar.cs" t="Include" />
+        </e>
+        <e p="View" t="Include">
+          <e p="ForecastView.xaml" t="Include" />
+          <e p="ForecastView.xaml.cs" t="Include" />
+          <e p="HistoricalWeatherView.xaml" t="Include" />
+          <e p="HistoricalWeatherView.xaml.cs" t="Include" />
+          <e p="MenuWindow.xaml" t="Include" />
+          <e p="MenuWindow.xaml.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="ForecastViewModel.cs" t="Include" />
+          <e p="HistoricalWeatherViewModel.cs" t="Include" />
+          <e p="MenuWindowViewModel.cs" t="Include" />
+        </e>
+        <e p="WPFFinalExam1.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WPFFinalExam1.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
