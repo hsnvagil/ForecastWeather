@@ -295,11 +295,11 @@
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding Weather.Today.Derge}" Value="True">
                                             <Setter Property="TextBlock.Text"
-                                                    Value="{Binding Weather.Today.Temp_F}" />
+                                                    Value="{Binding Weather.Today.TempF}" />
                                         </DataTrigger>
 
                                         <DataTrigger Binding="{Binding Weather.Today.Derge}" Value="False">
-                                            <Setter Property="TextBlock.Text" Value="{Binding Weather.Today.Temp_C}" />
+                                            <Setter Property="TextBlock.Text" Value="{Binding Weather.Today.TempC}" />
                                         </DataTrigger>
 
                                     </Style.Triggers>
@@ -357,7 +357,7 @@
                                        Canvas.Left="50" Canvas.Top="300" RenderTransformOrigin="0.5,0.5">
                                 <TextBlock.RenderTransform>
                                     <RotateTransform
-                                        Angle="{Binding Weather.Today.WinddirDegree, Converter= {StaticResource Comp}}" />
+                                        Angle="{Binding Weather.Today.WindDirDegree, Converter= {StaticResource Comp}}" />
                                 </TextBlock.RenderTransform>
                             </TextBlock>
                             <Separator Opacity="0" Width="5" />
@@ -367,11 +367,11 @@
                                         <Style.Triggers>
                                             <DataTrigger Binding="{Binding Weather.Today.Derge}" Value="True">
                                                 <Setter Property="TextBlock.Text"
-                                                        Value="{Binding Weather.Today.WindspeedMiles,StringFormat={}{0} mph}" />
+                                                        Value="{Binding Weather.Today.WindSpeedMiles,StringFormat={}{0} mph}" />
                                             </DataTrigger>
                                             <DataTrigger Binding="{Binding Weather.Today.Derge}" Value="False">
                                                 <Setter Property="TextBlock.Text"
-                                                        Value="{Binding Weather.Today.WindspeedKmph, StringFormat={}{0} km/h}" />
+                                                        Value="{Binding Weather.Today.WindSpeedKm, StringFormat={}{0} km/h}" />
                                             </DataTrigger>
                                         </Style.Triggers>
                                     </Style>

@@ -113,3 +113,40 @@ C:\Users\ACER\Desktop\WPFFinalExam1\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behav
 C:\Users\ACER\Desktop\WPFFinalExam1\WPFFinalExam1\bin\Debug\ControlzEx.xml
 C:\Users\ACER\Desktop\WPFFinalExam1\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\Users\ACER\Desktop\WPFFinalExam1\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\WPFFinalExam1.exe.config
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\WPFFinalExam1.exe
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\WPFFinalExam1.pdb
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\ControlzEx.dll
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\MahApps.Metro.dll
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\ControlzEx.pdb
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\ControlzEx.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\MahApps.Metro.pdb
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\MahApps.Metro.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.csprojAssemblyReference.cache
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\ForecastView.g.cs
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\HistoricalWeatherView.g.cs
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\MenuWindow.g.cs
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\App.g.cs
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1_MarkupCompile.cache
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1_MarkupCompile.lref
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\App.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\Templates\BAR.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\Templates\Styles.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\ForecastView.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\HistoricalWeatherView.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\View\MenuWindow.baml
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.g.resources
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.Properties.Resources.resources
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.csproj.GenerateResource.cache
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.csproj.CoreCompileInputs.cache
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.csproj.CopyComplete
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.exe
+C:\Users\Agil Hasanov\Desktop\forecast-weather\WPFFinalExam1\obj\Debug\WPFFinalExam1.pdb

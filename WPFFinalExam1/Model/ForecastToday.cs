@@ -1,228 +1,187 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Drawing;
 using System.Runtime.CompilerServices;
 
-namespace WPFFinalExam1.Model
-{
-    public class ForecastToday : INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public void OnPropertyChanged([CallerMemberName] string prop = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
-        }
+namespace WPFFinalExam1.Model {
+    public class ForecastToday : INotifyPropertyChanged {
+        private int _barometer;
+        private int _barometerInches;
 
         private string _city;
         private bool _derge;
-        private string _query;
-        private int _temp_C;
-        private int _temp_F;
         private string _des;
-        private DateTime _time;
-        private int _visibilityMiles;
-        private int _visibility;
-        private int _windspeedMiles;
-        private int _windspeedKmph;
-        private int _barometer;
-        private int _barometerInches;
-        private int _humidity;
         private int _feelsLikeC;
         private int _feelsLikeF;
-        private int _uvIndex;
-        private int _winddirDegree;
+        private int _humidity;
         private string _icon;
+        private string _query;
+        private int _tempC;
+        private int _tempF;
+        private DateTime _time;
+        private int _uvIndex;
+        private int _visibility;
+        private int _visibilityMiles;
+        private int _windDirDegree;
+        private int _windSpeedKm;
+        private int _windSpeedMiles;
 
 
-        public string City
-        {
+        public string City {
             get => _city;
-            set
-            {
+            set {
                 _city = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Icon
-        {
+        public string Icon {
             get => _icon;
-            set
-            {
+            set {
                 _icon = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Query
-        {
+        public string Query {
             get => _query;
-            set
-            {
+            set {
                 _query = value;
                 OnPropertyChanged();
             }
         }
 
-        public bool Derge
-        {
+        public bool Derge {
             get => _derge;
-            set
-            {
+            set {
                 _derge = value;
                 OnPropertyChanged();
             }
         }
 
-        public int Temp_C
-        {
-            get => _temp_C;
-            set
-            {
-                _temp_C = value;
+        public int TempC {
+            get => _tempC;
+            set {
+                _tempC = value;
                 OnPropertyChanged();
             }
         }
 
-        public int Temp_F
-        {
-            get => _temp_F;
-            set
-            {
-                _temp_F = value;
+        public int TempF {
+            get => _tempF;
+            set {
+                _tempF = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Des
-        {
+        public string Des {
             get => _des;
-            set
-            {
+            set {
                 _des = value;
                 OnPropertyChanged();
             }
         }
 
-        public int VisibilityMiles
-        {
+        public int VisibilityMiles {
             get => _visibilityMiles;
-            set
-            {
+            set {
                 _visibilityMiles = value;
                 OnPropertyChanged();
             }
         }
 
-        public int Visibility
-        {
+        public int Visibility {
             get => _visibility;
-            set
-            {
+            set {
                 _visibility = value;
                 OnPropertyChanged();
             }
         }
 
-        public int WindspeedMiles
-        {
-            get => _windspeedMiles;
-            set
-            {
-                _windspeedMiles = value;
+        public int WindSpeedMiles {
+            get => _windSpeedMiles;
+            set {
+                _windSpeedMiles = value;
                 OnPropertyChanged();
             }
         }
 
-        public int WindspeedKmph
-        {
-            get => _windspeedKmph;
-            set
-            {
-                _windspeedKmph = value;
+        public int WindSpeedKm {
+            get => _windSpeedKm;
+            set {
+                _windSpeedKm = value;
                 OnPropertyChanged();
             }
         }
 
-        public int Barometer
-        {
+        public int Barometer {
             get => _barometer;
-            set
-            {
+            set {
                 _barometer = value;
                 OnPropertyChanged();
             }
         }
 
-        public int BarometerInches
-        {
+        public int BarometerInches {
             get => _barometerInches;
-            set
-            {
+            set {
                 _barometerInches = value;
                 OnPropertyChanged();
             }
         }
 
-        public int Humidity
-        {
+        public int Humidity {
             get => _humidity;
-            set
-            {
+            set {
                 _humidity = value;
                 OnPropertyChanged();
             }
         }
 
-        public int FeelsLikeC
-        {
+        public int FeelsLikeC {
             get => _feelsLikeC;
-            set
-            {
+            set {
                 _feelsLikeC = value;
                 OnPropertyChanged();
             }
         }
 
-        public int FeelsLikeF
-        {
+        public int FeelsLikeF {
             get => _feelsLikeF;
-            set
-            {
+            set {
                 _feelsLikeF = value;
                 OnPropertyChanged();
             }
         }
 
-        public int UvIndex
-        {
+        public int UvIndex {
             get => _uvIndex;
-            set
-            {
+            set {
                 _uvIndex = value;
                 OnPropertyChanged();
             }
         }
 
-        public int WinddirDegree
-        {
-            get => _winddirDegree;
-            set
-            {
-                _winddirDegree = value;
+        public int WindDirDegree {
+            get => _windDirDegree;
+            set {
+                _windDirDegree = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Time
-        {
+        public DateTime Time {
             get => _time;
-            set
-            {
+            set {
                 _time = value;
                 OnPropertyChanged();
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string prop = "") {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
     }
 }

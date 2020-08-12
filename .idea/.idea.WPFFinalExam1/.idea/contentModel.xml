@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ACER\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ACER\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WPFFinalExam1.-1395266922.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ACER\Desktop\WPFFinalExam1" t="IncludeFlat">
+    <e p="C:\Users\Agil Hasanov\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Agil Hasanov\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_WPFFinalExam1.1721327157.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Agil Hasanov\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Agil Hasanov\Desktop\forecast-weather" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="WPFFinalExam1" t="IncludeRecursive">
         <e p="App.config" t="Include" />
@@ -64,7 +65,17 @@
           <e p="StatsWeatherInfo.cs" t="Include" />
           <e p="WeatherInfo.cs" t="Include" />
         </e>
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+            <e p="View" t="Include">
+              <e p="ForecastView.g.cs" t="Include" />
+              <e p="HistoricalWeatherView.g.cs" t="Include" />
+              <e p="MenuWindow.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

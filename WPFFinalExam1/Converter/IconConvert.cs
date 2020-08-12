@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WPFFinalExam1.Converter
-{
-    class IconConvert
-    {
-        public string ConverterIcon(string icon)
-        {
-            switch (icon)
-            {
+﻿namespace WPFFinalExam1.Converter {
+    internal class IconConvert {
+        public string ConverterIcon(string icon) {
+            switch (icon) {
                 case "t01d":
                 case "t02d":
                 case "t03d":

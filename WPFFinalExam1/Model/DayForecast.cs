@@ -3,174 +3,144 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace WPFFinalExam1.Model
-{
-    public class DayForecast : INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler PropertyChanged;
+namespace WPFFinalExam1.Model {
+    public class DayForecast : INotifyPropertyChanged {
+        private DateTime _date;
+        private string _desc;
 
-        public void OnPropertyChanged([CallerMemberName] string prop = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
-        }
+        private bool _far;
+        private string _icon;
+        private int _maxTempC;
+        private int _maxTempF;
+        private int _minTempC;
+        private int _minTempF;
+        private string _moonPhase;
+        private DateTime _moonrise;
+        private DateTime _moonset;
+        private DateTime _sunrise;
+        private DateTime _sunset;
+        private int _uvIndex;
 
         public ObservableCollection<HourForecast> hourForecasts { get; set; } =
             new ObservableCollection<HourForecast>();
 
-        private bool _far = false;
-        private DateTime _date;
-        private DateTime _sunrise;
-        private DateTime _sunset;
-        private DateTime _moonrise;
-        private DateTime _moonset;
-        private string _moon_phase;
-        private int _maxtempC;
-        private int _maxtempF;
-        private int _mintempC;
-        private int _mintempF;
-        private int _uvIndex;
-        private string _desc;
-        private string _icon;
 
-
-        public bool Far
-        {
+        public bool Far {
             get => _far;
-            set
-            {
+            set {
                 _far = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Desc
-        {
+        public string Desc {
             get => _desc;
-            set
-            {
+            set {
                 _desc = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Icon
-        {
+        public string Icon {
             get => _icon;
-            set
-            {
+            set {
                 _icon = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Date
-        {
+        public DateTime Date {
             get => _date;
-            set
-            {
+            set {
                 _date = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Sunrise
-        {
+        public DateTime Sunrise {
             get => _sunrise;
-            set
-            {
+            set {
                 _sunrise = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Sunset
-        {
+        public DateTime Sunset {
             get => _sunset;
-            set
-            {
+            set {
                 _sunset = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Moonrise
-        {
+        public DateTime Moonrise {
             get => _moonrise;
-            set
-            {
+            set {
                 _moonrise = value;
                 OnPropertyChanged();
             }
         }
 
-        public DateTime Moonset
-        {
+        public DateTime Moonset {
             get => _moonset;
-            set
-            {
+            set {
                 _moonset = value;
                 OnPropertyChanged();
             }
         }
 
-        public string Moon_Phase
-        {
-            get => _moon_phase;
-            set
-            {
-                _moon_phase = value;
+        public string MoonPhase {
+            get => _moonPhase;
+            set {
+                _moonPhase = value;
                 OnPropertyChanged();
             }
         }
 
-        public int MaxTempC
-        {
-            get => _maxtempC;
-            set
-            {
-                _maxtempC = value;
+        public int MaxTempC {
+            get => _maxTempC;
+            set {
+                _maxTempC = value;
                 OnPropertyChanged();
             }
         }
 
-        public int MaxTempF
-        {
-            get => _maxtempF;
-            set
-            {
-                _maxtempF = value;
+        public int MaxTempF {
+            get => _maxTempF;
+            set {
+                _maxTempF = value;
                 OnPropertyChanged();
             }
         }
 
-        public int MinTempC
-        {
-            get => _mintempC;
-            set
-            {
-                _mintempC = value;
+        public int MinTempC {
+            get => _minTempC;
+            set {
+                _minTempC = value;
                 OnPropertyChanged();
             }
         }
 
-        public int MinTempF
-        {
-            get => _mintempF;
-            set
-            {
-                _mintempF = value;
+        public int MinTempF {
+            get => _minTempF;
+            set {
+                _minTempF = value;
                 OnPropertyChanged();
             }
         }
 
-        public int UvIndex
-        {
+        public int UvIndex {
             get => _uvIndex;
-            set
-            {
+            set {
                 _uvIndex = value;
                 OnPropertyChanged();
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string prop = "") {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
     }
 }

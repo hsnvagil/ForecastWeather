@@ -1,17 +1,17 @@
 <Application x:Class="WPFFinalExam1.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WPFFinalExam1"
-             StartupUri="View/MenuWindow.xaml"
-             >
+             StartupUri="View/MenuWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="./Templates/BAR.xaml"/>
-                <ResourceDictionary Source="./Templates/Styles.xaml"/>
+                <ResourceDictionary Source="./Templates/BAR.xaml" />
+                <ResourceDictionary Source="./Templates/Styles.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
+                <ResourceDictionary
+                    Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

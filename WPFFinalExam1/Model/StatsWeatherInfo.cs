@@ -1,59 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace WPFFinalExam1.Model
-{
-    public class StatsWeatherInfo : INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public void OnPropertyChanged([CallerMemberName] string prop = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
-        }
-
+namespace WPFFinalExam1.Model {
+    public class StatsWeatherInfo : INotifyPropertyChanged {
         private ObservableCollection<string> _collectionView = new ObservableCollection<string>();
+
+        private string _query;
 
         private ObservableCollection<KeyValuePair<string, int>> _valueList =
             new ObservableCollection<KeyValuePair<string, int>>();
 
-        private string _query;
 
-
-        public string Query
-        {
+        public string Query {
             get => _query;
-            set
-            {
+            set {
                 _query = value;
                 OnPropertyChanged();
             }
         }
 
-        public ObservableCollection<string> CollectionView
-        {
+        public ObservableCollection<string> CollectionView {
             get => _collectionView;
-            set
-            {
+            set {
                 _collectionView = value;
                 OnPropertyChanged();
             }
         }
 
-        public ObservableCollection<KeyValuePair<string, int>> ValueList
-        {
+        public ObservableCollection<KeyValuePair<string, int>> ValueList {
             get => _valueList;
-            set
-            {
+            set {
                 _valueList = value;
                 OnPropertyChanged();
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string prop = null) {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
     }
 }

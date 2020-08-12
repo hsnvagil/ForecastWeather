@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WPFFinalExam1.Converter
-{
-    public class TimeConverter
-    {
-        public string ConvertHour(string time)
-        {
-            switch (time)
-            {
+﻿namespace WPFFinalExam1.Converter {
+    public class TimeConverter {
+        public string ConvertHour(string time) {
+            switch (time) {
                 case "0":
                     return "12 am";
                 case "100":

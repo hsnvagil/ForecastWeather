@@ -121,10 +121,10 @@ namespace WPFFinalExam1.ViewModel
         {
             Derge = !Derge;
             Weather.Today.Derge = !Weather.Today.Derge;
-            foreach (DayForecast d in Weather.Forecast)
+            foreach (var d in Weather.Forecast)
             {
                 d.Far = !d.Far;
-                foreach (HourForecast h in d.hourForecasts)
+                foreach (var h in d.hourForecasts)
                 {
                     h.Far = !h.Far;
                 }
