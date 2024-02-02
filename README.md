@@ -9,3 +9,4 @@ A weather module that displays current, hourly, weekly and yearly average foreca
 ![](https://user-images.githubusercontent.com/47672788/90018548-23c17780-dcbe-11ea-8929-66bf94c2388e.png)
 
 </div>
+
